@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -8,7 +8,6 @@
   <meta name="author" content="Catrina Stoner" />
   <link rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" />
   <style>
-    /* Minimal styling to mimic the Jimdo page look — edit to taste */
     :root{
       --bg:#fff;
       --text:#111;
@@ -70,16 +69,33 @@
     }
   </style>
 </head>
+body{
+  margin:0;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg) url("assets/background.jpeg") center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color:var(--text);
+  line-height:1.45;
+  -webkit-font-smoothing:antialiased;
+  padding:24px;
+  display:flex;
+  justify-content:center;
+}
 <body>
   <div class="wrap" role="main">
     <header>
       <div class="brand">【ᖇOᗷOԎ ᒍᗴᒍᒍYᖴIՏᕼ】</div>
       <nav aria-label="Main navigation">
         <ul>
-          <li><a href="#home">H∅ME</a></li>
-          <li><a href="#artwork">∆RT G∆LLERY</a></li>
-          <li><a href="#brain">BR∆IN V∅MIT</a></li>
-          <li><a href="#poetry">P∅ETRY</a></li>
+          <li><a href="#home">MAIN</a></li>
+          <li><a href="#artwork">ART</a></li>
+          <li><a href="#brain">BRAIN VOMIT</a></li>
+          <li><a href="#poetry">POETRY</a></li>
+          <li><a href="#photography">PHOTOS</a></li>
+          <li><a href="#vespa">THE VESPA VEDA</a></li>
+          <li><a href="#blog">BLOG</a></li>
         </ul>
       </nav>
     </header>
@@ -94,26 +110,21 @@
 
       <p style="font-weight:700;letter-spacing:1px;margin-top:10px;">WELCOME TO MY MONTAGALOGUE! THIS IS A DIGITALLY FOSSILIZED ARCHIVE OF MY MIND.</p>
 
-      <div class="grid" style="margin-top:14px;">
-        <!-- Replace src with your public image URLs. these are placeholders -->
-        <div class="card gallery">
-          <img src="images/photo-01.jpg" alt="Featured photo 1 — replace with your URL">
-        </div>
-        <div class="card gallery">
-          <img src="images/photo-02.jpg" alt="Featured photo 2 — replace with your URL">
-        </div>
-        <div class="card gallery">
-          <img src="images/photo-03.jpg" alt="Featured photo 3 — replace with your URL">
-        </div>
-        <div class="card gallery">
-          <img src="images/photo-04.jpg" alt="Featured photo 4 — replace with your URL">
-        </div>
+      <div style="margin-top:14px;">
+  <iframe 
+    src="https://photos.app.goo.gl/pp1PdFq5dbE7Q2XaA" 
+    style="width:100%;height:600px;border:none;border-radius:8px;overflow:hidden;"
+    allow="autoplay; fullscreen"
+    loading="lazy"
+    referrerpolicy="no-referrer"
+  ></iframe>
+</div> -->
       </div>
 
       <p class="muted">Photography, small galleries below. More images link to external Google Photos collections.</p>
 
       <p style="margin-top:8px;">
-        <a href="https://photos.app.goo.gl" target="_blank" rel="noopener">SEE MORE PHOTOGRAPHY</a> ·
+        <a href="https://photos.app.goo.gl/pp1PdFq5dbE7Q2XaA"  target="_blank" rel="noopener">SEE MORE PHOTOGRAPHY</a> ·
         <a href="https://sites.google.com" target="_blank" rel="noopener">THE VESPA VEDA</a> ·
         <a href="#artwork">ARTWORK</a> ·
         <a href="#brain">BRAIN VOMIT</a> ·
